@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/homeBackground"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@+id/layout_user_information"
+
+    android:weightSum="4"
+    android:padding="8dp"
+    android:background="@color/colorButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<ImageView
+    android:src="@drawable/ic_baseline_account_circle_24"
+    android:layout_width="60dp"
+    android:layout_height="60dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+       android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:background="@color/colorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <TextView
+          android:id="@+id/text_user_name"
+          android:text="Eddy Michael"
+          android:textColor="@android:color/white"
+          android:textSize="22dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/text_member_type"
+            android:text="Normal"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="4">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_booking"
+            android:layout_width="8dp"
+            android:layout_height="119dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_black_event_note_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/bellerose"
+                    android:text="Booking"
+                    android:textSize="@dimen/textCardSize" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_feedback"
+            android:layout_width="8dp"
+            android:layout_height="119dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_black_feedback_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/bellerose"
+                    android:text="Feedback"
+                    android:textSize="@dimen/textCardSize" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_menu"
+            android:layout_width="8dp"
+            android:layout_height="119dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_black_restaurant_menu_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/bellerose"
+                    android:text="Menu"
+                    android:textSize="@dimen/textCardSize" />
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_black_restaurant_menu_24"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_Food"
+            android:layout_width="8dp"
+            android:layout_height="119dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="74dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_black_add_shopping_cart_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/bellerose"
+                    android:text="Preorader"
+                    android:textSize="@dimen/textCardSize" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+<LinearLayout
+
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ss.com.bannerslider.Slider
+        android:id="@+id/banner_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_centerVertical="true"
+   android:gravity="center_vertical"
+    android:text="Restaurant"
+    android:fontFamily="@font/bellerose"
+    android:textColor="@color/colorButton"
+    android:textSize="18sp"/>
+
+
+
+
+
+</LinearLayout>
+</LinearLayout>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/action_home"
+    android:icon="@drawable/ic_baseline_home_24"
+    android:title = "home"
+    />
+<item android:id="@+id/action_Reservation"
+    android:icon="@drawable/ic_baseline_event_available_24"
+    android:title = "Reservation"
+    />
+<item android:id="@+id/action_Menu"
+    android:icon="@drawable/ic_baseline_restaurant_menu_24"
+    android:title = "Menu"
+    />
+<item android:id="@+id/action_Feedback"
+    android:icon="@drawable/ic_baseline_feedback_24"
+    android:title = "Feedback"
+    />
+
+
+</menu>

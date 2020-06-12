@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:padding="8dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="423dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/background" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Your Name"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Password"
+
+            />
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_Register"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:layout_above="@id/txt_skip"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorButton"
+        android:fontFamily="@font/bellerose"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:layout_above="@id/txt_skip"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorButton"
+        android:fontFamily="@font/bellerose"
+        android:text="login"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_Exit"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:layout_above="@id/txt_skip"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorButton"
+        android:fontFamily="@font/bellerose"
+        android:text="Exit"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+</LinearLayout>

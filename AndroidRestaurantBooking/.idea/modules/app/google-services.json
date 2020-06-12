@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "604828585297",
+    "firebase_url": "https://androidrestaurantbooking.firebaseio.com",
+    "project_id": "androidrestaurantbooking",
+    "storage_bucket": "androidrestaurantbooking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604828585297:android:199405375f6d76b231d770",
+        "android_client_info": {
+          "package_name": "com.example.androidrestaurantbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604828585297-d0ehqqb5bf55h81cp4co9413l55pbson.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidrestaurantbooking",
+            "certificate_hash": "d3719eec513a79e48164bf24f1d34b3ab4541397"
+          }
+        },
+        {
+          "client_id": "604828585297-d2kqrg4asd6pg257a6vlsuufu4fv90hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBevgVTI80QphxVj3Oc_EJhwSGP6YnyP1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604828585297-d2kqrg4asd6pg257a6vlsuufu4fv90hb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/action_home"
+    android:icon="@drawable/ic_baseline_home_24"
+    android:title = "home"
+    />
+    <item android:id="@+id/action_Reservation"
+        android:icon="@drawable/ic_baseline_event_available_24"
+        android:title = "Reservation"
+        />
+    <item android:id="@+id/action_Menu"
+        android:icon="@drawable/ic_baseline_restaurant_menu_24"
+        android:title = "Menu"
+        />
+    <item android:id="@+id/action_Feedback"
+        android:icon="@drawable/ic_baseline_feedback_24"
+        android:title = "Feedback"
+        />
+
+
+</menu>
